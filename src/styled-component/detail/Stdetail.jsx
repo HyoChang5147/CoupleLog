@@ -1,5 +1,14 @@
 import styled from 'styled-components'
 
+export const MainImg = styled.img`
+ display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin: 20px auto;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+`
+
 export const Div = styled.div``
 
 export const Container = styled.div`

@@ -139,11 +139,9 @@ console.log(location.state)
         </St.TopFlexDiv>
       </St.TopDiv>
       <St.MediumDiv>
-
+      <St.MainImg src={location.state.imageUrl} alt="User Image" />
         <St.H2> 상세정보</St.H2>
         <St.MediumDiv2>
-          {/* <div>{posts.title}</div> */}
-          {/* 일반주소 */}
           주소 :
           {location.state.clickedLocation.address_name ||
             '주소없음'}
@@ -195,7 +193,6 @@ console.log(location.state)
               {renderEditAndDeleteButtons()}
               </St.ConPost>
              
-              {/* <p>{location.state.clickedLocation.place_name}</p> */}
            
 
             </St.ContentList>
