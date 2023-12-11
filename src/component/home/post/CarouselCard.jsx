@@ -58,6 +58,7 @@ const TextOverlay = styled.div`
 `
 
 const Title = styled.h2`
+text-align:center;
   font-size: 16px;
   color: white;
   padding:5px;
